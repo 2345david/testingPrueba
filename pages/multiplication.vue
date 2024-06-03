@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  mounted:{
+  methods:{
     calc(a, b){
       return a * b
     }

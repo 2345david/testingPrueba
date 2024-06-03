@@ -12,6 +12,6 @@ describe('multiplication.vue', () => {
     it('comprobar el texto de la multiplicacion', () => {
         const wrapper = mount(multiplication)
         const result = wrapper.find('h1');
-        expect(result.text()).toBe('El resultado de la multiplicacion es  64');
+        expect(result.text()).toBe('El resultado de la multiplicacion es 64');
     })
 })

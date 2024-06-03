@@ -7,7 +7,7 @@
 <script>
 export default {
   name: 'divisio',
-  mounted:{
+  methods:{
     division(a, b){
       return a / b
     }

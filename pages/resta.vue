@@ -12,7 +12,7 @@ export default {
   },
   computed:{
     text(){
-      return 'El resultado de la resta es ' + this.rest(8, 2)
+      return 'El resultado de la resta es ' + this.rest(20, 10)
     }
   }
 }
