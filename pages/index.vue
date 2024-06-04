@@ -12,7 +12,7 @@
 
 
 <script>
-/*
+
 import useMessage from '../composables/notifyComposable.js';
 
 export default {
@@ -23,5 +23,5 @@ export default {
     };
   },
 };
-*/
+
 </script>

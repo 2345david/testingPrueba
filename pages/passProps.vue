@@ -1,4 +1,5 @@
 <template>
+
   <div class="flex flex-col items-center justify-center h-screen bg-blue-950 gap-4">
     <div class="flex flex-col gap-4">
       <input v-model="num1" type="number" placeholder="Primer Numero" class="outline-none rounded-lg pt-3 pb-3 pr-3 pl-3 bg-blue-900 text-white placeholder-white"/>
@@ -12,7 +13,10 @@
       <button @click="calculate" class="border-2 text-white hover:bg-blue-900 rounded-lg pt-2 pb-2 pr-4 pl-4 transition duration-300">Calcular</button>
     </div>
   </div>
+
 </template>
+
+
 
 <script>
 export default {
